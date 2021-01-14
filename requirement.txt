@@ -3,6 +3,7 @@ aiohttp @ file:///C:/ci/aiohttp_1607109697839/work
 astunparse==1.6.3
 async-timeout==3.0.1
 attrs @ file:///tmp/build/80754af9/attrs_1604765588209/work
+autopep8==1.5.4
 blinker==1.4
 brotlipy==0.7.0
 cachetools @ file:///tmp/build/80754af9/cachetools_1607706694405/work
@@ -14,6 +15,8 @@ cryptography==2.9.2
 cycler==0.10.0
 fastcluster==1.1.26
 ffmpy==0.2.3
+flasgger==0.9.5
+Flask==1.1.2
 gast @ file:///tmp/build/80754af9/gast_1597433534803/work
 google-auth @ file:///tmp/build/80754af9/google-auth_1607969906642/work
 google-auth-oauthlib @ file:///tmp/build/80754af9/google-auth-oauthlib_1603929124518/work
@@ -24,12 +27,17 @@ idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 imageio @ file:///tmp/build/80754af9/imageio_1594161405741/work
 imageio-ffmpeg @ file:///home/conda/feedstock_root/build_artifacts/imageio-ffmpeg_1609799311556/work
 importlib-metadata @ file:///tmp/build/80754af9/importlib-metadata_1602276842396/work
+itsdangerous==1.1.0
+Jinja2==2.11.2
 joblib @ file:///tmp/build/80754af9/joblib_1607970656719/work
+jsonschema==3.2.0
 Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
 Keras-Preprocessing==1.1.0
 kiwisolver @ file:///C:/ci/kiwisolver_1604014703538/work
 Markdown @ file:///C:/ci/markdown_1605111189761/work
+MarkupSafe==1.1.1
 matplotlib @ file:///C:/ci/matplotlib-base_1592837548929/work
+mistune==0.8.4
 mkl-fft==1.2.0
 mkl-random==1.1.1
 mkl-service==2.3.0
@@ -47,15 +55,18 @@ protobuf==3.13.0
 psutil @ file:///C:/ci/psutil_1598370330503/work
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
+pycodestyle==2.6.0
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
 PyJWT @ file:///C:/ci/pyjwt_1608658192037/work
 pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1608057966937/work
 pyparsing==2.4.7
 pyreadline==2.1
+pyrsistent==0.17.3
 PySocks @ file:///C:/ci/pysocks_1605287845585/work
 python-dateutil==2.8.1
 pytz==2020.5
 pywin32==227
+PyYAML==5.3.1
 requests @ file:///tmp/build/80754af9/requests_1608241421344/work
 requests-oauthlib==1.3.0
 rsa @ file:///tmp/build/80754af9/rsa_1596998415516/work
@@ -69,6 +80,7 @@ tensorflow==2.3.0
 tensorflow-estimator @ file:///tmp/build/80754af9/tensorflow-estimator_1599136169057/work/whl_temp/tensorflow_estimator-2.3.0-py2.py3-none-any.whl
 termcolor==1.1.0
 threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+toml==0.10.2
 tornado @ file:///C:/ci/tornado_1606942392901/work
 tqdm @ file:///tmp/build/80754af9/tqdm_1609788246169/work
 typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1598376058250/work
