@@ -4,6 +4,8 @@ Kaggle dataset : data was extracted from authentic and forge notes
 
 Kaggle problem : https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data
 
+https://github.com/divyansh1195/Bank-Notes-Authenticator
+https://github.com/DARK-art108/Bank-Note-Authentication
 Steps :
 1 Import data set 
 2 split into dependent and independent variable 
@@ -13,3 +15,21 @@ Steps :
 6 Create api using flask
 7 Create get and post req 
 8 use postman to test 
+9 use flasger api to create a UI for testing 
+10 Push to Heroku
+10 Install docker 
+11 Docker commands - Each docker has its own user folder 
+
+
+
+Steps for Heroku Deployment : 
+pip install gunicorn 
+add Procfile in directory and pip freeze > requirement.txt 
+
+
+FROM - Host system
+COPY - would copy web app to root folder 
+EXPOSE - expose port for accessing web app
+WORKDIR - what is the working directory of code 
+RUN - install requirement.txt 
+CMD - python app.py (the file which will run the whole webApp)
