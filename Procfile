@@ -1,1 +1,1 @@
-web: gunicorn app:BankNote_FLASGER_API
+web: gunicorn BankNote_FLASGER_API:app
