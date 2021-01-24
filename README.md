@@ -17,3 +17,10 @@ Steps followed :-
 8. use postman to test 
 9. Create swagger interface using flassger
 10. Deploy on Heroku
+
+Deployed app : https://flassger-banknote.herokuapp.com/
+Flasgger API : https://flassger-banknote.herokuapp.com/apidocs/ 
+# References 
+https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
+https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data
+https://www.youtube.com/watch?v=ipFUANeStYE
