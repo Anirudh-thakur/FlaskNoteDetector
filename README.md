@@ -6,6 +6,14 @@ Kaggle dataset : data was extracted from authentic and forge notes
 
 Kaggle problem : https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data
 
+# Deployed App Demo 
+- Deployed app : https://flassger-banknote.herokuapp.com/
+- Flasgger API : https://flassger-banknote.herokuapp.com/apidocs/ 
+
+# How to install ? 
+Clone the repo and simply use pip install -r requirements.txt to get all the dependencies.You can also create a seperate virtual environment for this process :-
+- https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+
 Steps followed :- 
 1. Import data set 
 2. split into dependent and independent variable 
@@ -18,8 +26,6 @@ Steps followed :-
 9. Create swagger interface using flassger
 10. Deploy on Heroku
 
-Deployed app : https://flassger-banknote.herokuapp.com/
-Flasgger API : https://flassger-banknote.herokuapp.com/apidocs/ 
 # References 
 https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
 https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data
