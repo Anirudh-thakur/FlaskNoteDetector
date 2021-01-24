@@ -20,11 +20,17 @@ Steps :
 10 Install docker 
 11 Docker commands - Each docker has its own user folder 
 
+Install virtual enviroments :
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
+
+use : /apidocs/ - to open flasgger
+
 
 
 Steps for Heroku Deployment : 
 pip install gunicorn 
 add Procfile in directory and pip freeze > requirement.txt 
+heroku login , heroku create 
 
 
 FROM - Host system
