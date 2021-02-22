@@ -25,6 +25,7 @@ Steps followed :-
 8. use postman to test 
 9. Create swagger interface using flassger
 10. Deploy on Heroku
+11. Installing docker and creating DockerFile 
 
 # References 
 https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
