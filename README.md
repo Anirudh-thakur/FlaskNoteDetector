@@ -38,7 +38,32 @@ Github Link : https://github.com/Anirudh-thakur/FlaskNoteDetector
 
 Heroku Link : https://flassger-banknote.herokuapp.com/apidocs
 
-Steps followed :- 
+# How to create Docker image:-
+1. Download docker (https://www.docker.com/products/docker-desktop)
+2. Taking image for docker (continuumio/anaconda3:4.4.0) and creating docker file
+3. Build docker image :
+docker build -t money_api .
+4. See the docker ( docker ps )
+5. Run docker : docker run -p 8000:8000 money_api 
+
+docker inspect money_api ( to get details )
+
+common commands : 
+
+FROM - Host system
+
+COPY - would copy web app to root folder 
+
+EXPOSE - expose port for accessing web app
+
+WORKDIR - what is the working directory of code 
+
+RUN - install requirement.txt 
+
+CMD - python app.py (the file which will run the whole webApp)
+
+
+# Steps followed :- 
 1. Import data set 
 2. split into dependent and independent variable 
 3. test train split
@@ -46,12 +71,19 @@ Steps followed :-
 5. Save predictor as pickle 
 6. Create api using flask
 7. Create get and post req 
-8. use postman to test 
+8. Use postman to test 
 9. Create swagger interface using flassger
 10. Deploy on Heroku
 11. Installing docker and creating DockerFile 
 
 # References 
 https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
+
 https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-data
+
 https://www.youtube.com/watch?v=ipFUANeStYE
+
+https://github.com/krishnaik06/Dockers
+
+https://www.freecodecamp.org/news/how-to-get-a-docker-container-ip-address-explained-with-examples/
+

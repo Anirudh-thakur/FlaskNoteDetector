@@ -41,4 +41,11 @@ RUN - install requirement.txt
 CMD - python app.py (the file which will run the whole webApp)
 
 Docker :-
-Taking image for docker (continuumio/anaconda3:4.4.0)
+1. Download docker (https://www.docker.com/products/docker-desktop)
+2. Taking image for docker (continuumio/anaconda3:4.4.0) and creating docker file
+3. Build docker image :
+docker build -t money_api .
+4. See the docker ( docker ps )
+5. Run docker : docker run -p 8000:8000 money_api 
+
+
