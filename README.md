@@ -14,6 +14,30 @@ Kaggle problem : https://www.kaggle.com/ritesaluja/bank-note-authentication-uci-
 Clone the repo and simply use pip install -r requirements.txt to get all the dependencies.You can also create a seperate virtual environment for this process :-
 - https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
 
+# How to deploy on Heroku ? 
+You can follow these steps to run Flask App on Heroku
+
+ 1. Install Heroku CLI ( https://devcenter.heroku.com/articles/heroku-cli ) 
+ 2. Push your code to git and create a heroku app ( https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true#introduction)
+ 3. Define Procfile and install gunicorn dependency (pip install gunicorn)
+add this entry to your profile
+
+           web: gunicorn BankNote_FLASGER_API:app
+
+where BankNote_FLASGER_API is the name of the python file and app is the name of flask app defined in the python file
+
+https://devcenter.heroku.com/articles/getting-started-with-python?singlepage=true#define-a-procfile
+
+ 4. Save the dependency using pip freeze > requirements.txt and push code to github and heroku by using 
+
+                 git push heroku main 
+
+You can take a reference from my github flask Banknote repository which is deployed on heroku 
+
+Github Link : https://github.com/Anirudh-thakur/FlaskNoteDetector
+
+Heroku Link : https://flassger-banknote.herokuapp.com/apidocs
+
 Steps followed :- 
 1. Import data set 
 2. split into dependent and independent variable 

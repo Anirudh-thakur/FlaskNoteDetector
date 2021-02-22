@@ -39,3 +39,6 @@ EXPOSE - expose port for accessing web app
 WORKDIR - what is the working directory of code 
 RUN - install requirement.txt 
 CMD - python app.py (the file which will run the whole webApp)
+
+Docker :-
+Taking image for docker (continuumio/anaconda3:4.4.0)
