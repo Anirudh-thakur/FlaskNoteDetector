@@ -5,6 +5,7 @@ import pickle
 from flasgger import Swagger
 
 app=Flask(__name__)
+#app.run(host='0.0.0.0')
 Swagger(app)
 pickle_in = open('classifier.pkl','rb')
 classifier=pickle.load(pickle_in)

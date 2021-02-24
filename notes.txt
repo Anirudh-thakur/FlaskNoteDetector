@@ -48,4 +48,10 @@ docker build -t money_api .
 4. See the docker ( docker ps )
 5. Run docker : docker run -p 8000:8000 money_api 
 
+Deploying models with StreamLit
+1. Install streamlit ( pip install streamlit) and import in new file 
+2. Remove flask and flasger imports from the file 
+3. Create a main function and call it (write the html file contents in the function)
+4. to run in browser use command streamlit run StreamLit.py
+
 

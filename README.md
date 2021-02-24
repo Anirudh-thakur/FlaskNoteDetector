@@ -62,6 +62,11 @@ RUN - install requirement.txt
 
 CMD - python app.py (the file which will run the whole webApp)
 
+# Deploying models with StreamLit
+1. Install streamlit ( pip install streamlit) and import in new file 
+2. Remove flask and flasger imports from the file 
+3. Create a main function and call it (write the html file contents in the function)
+4. to run in browser use command streamlit run StreamLit.py
 
 # Steps followed :- 
 1. Import data set 
@@ -75,6 +80,7 @@ CMD - python app.py (the file which will run the whole webApp)
 9. Create swagger interface using flassger
 10. Deploy on Heroku
 11. Installing docker and creating DockerFile 
+12. Creating streamlit app for prediction 
 
 # References 
 https://medium.com/@gitaumoses4/deploying-a-flask-application-on-heroku-e509e5c76524
